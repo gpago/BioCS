@@ -17,8 +17,11 @@ class Exr14:
         print("-----------------------------")
         print(muscle)
 
+    def player1(self):
+        print("player1 code")
 
-        
+    def player2(self):
+        print("player2 code")
 
 
 
