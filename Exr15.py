@@ -21,8 +21,4 @@ class Exr15:
 
 
 
-
-
-
-
 Exr15.main(Exr15)
