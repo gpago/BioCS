@@ -9,13 +9,7 @@ class Exr14:
         brain = open("BioData\BrainSqn", 'r').read()
         muscle = open("BioData\MuscleSqn", 'r').read()
 
-    def main(self):
-        print("Starting..")
 
-        self.readFiles(self)
-        print(brain)
-        print("-----------------------------")
-        print(muscle)
 
     def player1(self):
         print("player1 code")
@@ -24,7 +18,13 @@ class Exr14:
         print("player2 code")
 
 
+    def main(self):
+        print("Starting..")
 
+        self.readFiles(self)
+        print(brain)
+        print("-----------------------------")
+        print(muscle)
 
 
 
